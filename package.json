@@ -37,6 +37,7 @@
     "@storybook/testing-library": "^0.2.0",
     "@types/node": "20.6.0",
     "@types/react": "18.2.21",
+    "@types/react-content-loader": "^4.0.0",
     "@types/styled-components": "^5.1.27",
     "storybook": "^7.4.1",
     "tsconfig-paths-webpack-plugin": "^4.1.0",

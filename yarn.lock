@@ -2920,6 +2920,13 @@
   "resolved" "https://registry.npmjs.org/@types/range-parser/-/range-parser-1.2.4.tgz"
   "version" "1.2.4"
 
+"@types/react-content-loader@^4.0.0":
+  "integrity" "sha512-q06iajQsGE/fi08W7bchIX2C/dgKLMU4KLAWQOeF9WZFmXd6SeRdSjO9Z/grXaKXnjFW6+P7l6/BlN9kvO2v2A=="
+  "resolved" "https://registry.npmjs.org/@types/react-content-loader/-/react-content-loader-4.0.0.tgz"
+  "version" "4.0.0"
+  dependencies:
+    "react-content-loader" "*"
+
 "@types/react@*", "@types/react@^16.8.0 || ^17.0.0 || ^18.0.0", "@types/react@^16.9.0 || ^17.0.0 || ^18.0.0", "@types/react@>=16", "@types/react@18.2.21":
   "integrity" "sha512-neFKG/sBAwGxHgXiIxnbm3/AAVQ/cMRS93hvBpg8xYRbeQSPVABp9U2bRnPf0iI4+Ucdv3plSxKK+3CW2ENJxA=="
   "resolved" "https://registry.npmjs.org/@types/react/-/react-18.2.21.tgz"
@@ -7425,7 +7432,7 @@
   dependencies:
     "tween-functions" "^1.2.0"
 
-"react-content-loader@^6.2.1":
+"react-content-loader@*", "react-content-loader@^6.2.1":
   "integrity" "sha512-6ONbFX+Hi3SHuP66JB8CPvJn372pj+qwltJV0J8z/8MFrq98I1cbFdZuhDWeQXu3CFxiiDTXJn7DFxx2ZvrO7g=="
   "resolved" "https://registry.npmjs.org/react-content-loader/-/react-content-loader-6.2.1.tgz"
   "version" "6.2.1"
