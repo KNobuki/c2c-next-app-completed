@@ -45,7 +45,17 @@ const Template: ComponentStory<typeof ShapeImage> = (args) => (
 );
 
 export const Circle = Template.bind({});
-Circle.args = { src: "/images/sample/1.jpg", shape: "circle" };
+Circle.args = {
+  src: "/images/sample/1.jpg",
+  shape: "circle",
+  width: "320",
+  height: "320",
+};
 
 export const Square = Template.bind({});
-Square.args = { src: "/images/sample/1.jpg", shape: "square" };
+Square.args = {
+  src: "/images/sample/1.jpg",
+  shape: "square",
+  width: "320",
+  height: "320",
+};
