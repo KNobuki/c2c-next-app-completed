@@ -8,7 +8,7 @@ const AppLogo = () => (
     xmlns="http://www.w3.org/2000/svg"
     x="0px"
     y="0px"
-    width="10%"
+    width="18%"
     viewBox="0 0 211 211"
     enable-background="new 0 0 211 211"
   >

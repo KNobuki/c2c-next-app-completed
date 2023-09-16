@@ -2,7 +2,7 @@ import Link from "next/link";
 import RectLoader from "components/atoms/RectLoader";
 import Box from "components/layout/Box";
 import ProductCard from "components/organisms/ProductCard";
-import ProductCardList from "components/organisms/ProductCardList";
+import ProductCardList from "../components/organisms/ProductCartList";
 import useSearch from "services/products/use-search";
 import type { ApiContext, Category, Condition } from "types";
 
