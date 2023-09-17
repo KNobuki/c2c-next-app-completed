@@ -9,7 +9,7 @@ import Flex from "components/layout/Flex";
 import Breadcrumb from "components/molecules/Breadcrumb";
 import FilterGroup from "components/molecules/FilterGroup";
 import Layout from "components/templates/Layout";
-import ProductCardListContainer from "../../containers/ProductCartListContainer";
+import ProductCardListContainer from "../../containers/ProductCardListContainer";
 import type { Category, Condition } from "types";
 
 const Anchor = styled(Text)`
