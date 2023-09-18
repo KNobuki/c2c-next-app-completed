@@ -31,12 +31,7 @@ const addProductToCart = (product: Product, state: Product[]) => {
  */
 const removeProductFromCart = (productId: number, state: Product[]) => {
   const removedItemIndex = state.findIndex((item) => item.id === productId);
-
-  state.splice(removedItemIndex, 1);
-
-  const newState = [...state];
-  newState.splice(removedItemIndex, 1);
-  return newState;
+  return state.splice(removedItemIndex, 1);
 };
 
 /**
